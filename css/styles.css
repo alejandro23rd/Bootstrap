@@ -11,15 +11,20 @@ h1 {
     background-color: grey;
 }
 
+a {
+    color: black;
+}
 main:before {
     content: "Mobile First";
 }
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     main:before {
         content: "Mobile Small devices";
     }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -27,6 +32,7 @@ main:before {
     main:before {
         content: "Mobile Medium devices";
     }
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -34,11 +40,31 @@ main:before {
     main:before {
         content: "Mobile Large devices";
     }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     main:before {
-        content: "Mobile Extra large";
+        content: "Computer";    
     }
 }
+
+footer {
+    margin: right;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.box {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+

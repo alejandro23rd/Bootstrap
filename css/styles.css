@@ -68,3 +68,9 @@ ul, ol {
     margin-bottom: 5px;
 }
 
+.row div[class^="col"]{
+    border: 1px solid #333;
+    background-color: #DDD;
+    padding: 20 px;
+}
+
